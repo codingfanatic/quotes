@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a celebrity, see a quote!"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/RevX"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:text="Reverend X"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/Shannon"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Shannon Sharpe"
+        android:background="@color/testBlue"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:id="@+id/Yeezy"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Kanye West"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/Homer"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/testBlue"
+        android:text="Homer Simpson"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
